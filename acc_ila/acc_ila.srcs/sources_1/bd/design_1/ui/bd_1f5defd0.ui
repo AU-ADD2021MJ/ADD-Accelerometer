@@ -1,0 +1,45 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.759722",
+   "Default View_TopLeft":"125,75",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1590 -y 60 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1590 -y 80 -defaultsOSRD
+preplace port miso -pg 1 -lvl 0 -x 0 -y 630 -defaultsOSRD
+preplace port mosi -pg 1 -lvl 5 -x 1590 -y 600 -defaultsOSRD
+preplace port sclk -pg 1 -lvl 5 -x 1590 -y 560 -defaultsOSRD
+preplace portBus ss_n -pg 1 -lvl 5 -x 1590 -y 580 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 430 -y 100 -defaultsOSRD
+preplace inst pmod_accelerometer_a_0 -pg 1 -lvl 3 -x 1140 -y 610 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 3 -x 1140 -y 160 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 3 -x 1140 -y 300 -defaultsOSRD
+preplace inst axi_gpio_2 -pg 1 -lvl 3 -x 1140 -y 440 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 810 -y 280 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 430 -y 310 -defaultsOSRD
+preplace netloc pmod_accelerometer_a_0_acceleration_x 1 3 1 1310 170n
+preplace netloc pmod_accelerometer_a_0_acceleration_y 1 3 1 1300 310n
+preplace netloc pmod_accelerometer_a_0_acceleration_z 1 3 1 1290 450n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 200 630 100 990
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 3 30 210 610 110 950J
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 2 640 120 970
+preplace netloc miso_1 1 0 3 NJ 630 NJ 630 NJ
+preplace netloc pmod_accelerometer_a_0_sclk 1 3 2 NJ 560 N
+preplace netloc pmod_accelerometer_a_0_ss_n 1 3 2 NJ 580 N
+preplace netloc pmod_accelerometer_a_0_mosi 1 3 2 NJ 600 N
+preplace netloc processing_system7_0_FIXED_IO 1 1 4 NJ 80 NJ 80 NJ 80 N
+preplace netloc processing_system7_0_DDR 1 1 4 NJ 60 NJ 60 NJ 60 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 620 100n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 980 140n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 N 280
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 960 300n
+levelinfo -pg 1 0 430 810 1140 1470 1590
+pagesize -pg 1 -db -bbox -sgen -80 0 1710 1490
+"
+}
+{
+   "da_axi4_cnt":"3",
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"1"
+}
